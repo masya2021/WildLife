@@ -157,6 +157,13 @@ table {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.formaModal{
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: #CCCCCC;
+}
+
 .modalDialog {
 	position: fixed;
 	font-family: Arial, Helvetica, sans-serif;
@@ -425,6 +432,11 @@ table {
     border: 1px solid #CD6326;
     border-radius: 0px 5px 5px 0px;
 }
+
+.send-btn:hover{
+    background-color: #E39128;
+}
+
 .btn{
     font-family: 'Roboto';
     font-style: normal;
